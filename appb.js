@@ -15,4 +15,8 @@ function prnA(a) {
 }
 // arra.forEach(prnA);
 arra.map(prnA);//Only for react
+let arrb = [[[11, 12], [13]], [[111, 112], [113]], [[101, 102], [103]]];
+for (const i of arrb) {
+    console.log(i[0], i[1]);
+}
 
